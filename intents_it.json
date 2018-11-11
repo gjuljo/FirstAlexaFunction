@@ -1,0 +1,48 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "giuliotest",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "THANK_YOU_INTENT",
+                    "slots": [],
+                    "samples": [
+                        "Grazie",
+                        "Molte grazie",
+                        "Grazie mille"
+                    ]
+                },
+                {
+                    "name": "GENERATE_NUMBER",
+                    "slots": [],
+                    "samples": [
+                        "ancora",
+                        "ancora un numero",
+                        "altro numero",
+                        "nuovo numero",
+                        "Genera un numero random",
+                        "Genera un nuovo numero",
+                        "Dammi un numero random"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

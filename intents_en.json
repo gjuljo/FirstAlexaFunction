@@ -1,0 +1,51 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "giuliotest",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "THANK_YOU_INTENT",
+                    "slots": [],
+                    "samples": [
+                        "Very kind of you",
+                        "Thank you"
+                    ]
+                },
+                {
+                    "name": "GENERATE_NUMBER",
+                    "slots": [],
+                    "samples": [
+                        "again",
+                        "new random",
+                        "generate random",
+                        "generate number",
+                        "generate a random number",
+                        "a new number",
+                        "give me a random number"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
